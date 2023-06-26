@@ -1,0 +1,280 @@
+/*
+------------------デザイン（タブレット）------------------
+*/
+@media screen and (min-width: 600px) {
+  .sp {
+    display: none !important;
+  }
+  /* セクション共通 */
+  .section_inner {
+    padding: 30px 15px;
+  }
+  .wrapper_outer {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .wrapper_inner {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  /*
+sec01
+*/
+  /*ロゴ*/
+  #sec01 p.logo {
+    text-align: left;
+    width: 134px;
+  }
+  /*fv*/
+  #sec01 div.fv .point-r {
+    margin-top: -100px;
+  }
+  /*コンテンツ*/
+  #sec01 div.group-w.wrapper_outer {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #sec01 div.group-w {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+  }
+  #sec01 .group-w .intro {
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 0;
+    width: 450px;
+  }
+  #sec01 .group-w .intro ul.grid {
+    order: 2;
+    width: 100%;
+  }
+  #sec01 .group-w .intro p.batch {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #sec01 div.group-w > p {
+    padding-left: 20px;
+  }
+  /*
+sec02
+*/
+  #sec02 .wrapper_inner {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  #sec02 .flex {
+    flex-flow: row;
+    gap: 25px;
+  }
+  #sec02 .flex figure {
+    margin-bottom: 0;
+  }
+  #sec02 .flex p {
+    flex: 1;
+  }
+  #sec02 .flex:nth-child(odd) figure {
+    order: 1;
+  }
+  /*
+sec03
+*/
+  #sec03 h3.h3-title {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #sec03 .flex {
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  #sec03 .flex figure.flexItem1 {
+    margin-bottom: 0;
+  }
+  #sec03 .flex figure.flexItem2 {
+    border-top: none;
+    border-bottom: none;
+  }
+  #sec03 .group-g {
+    margin-bottom: 30px;
+  }
+  #sec03 .text {
+    margin-bottom: 30px;
+  }
+  #sec03 .bg-color {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+  }
+  #sec03 .bg-color .bg-color-in {
+    padding: 15px;
+  }
+  /*
+sec04
+*/
+  #sec04 .property h3.h3-title {
+    width: 380px;
+    padding: 20px 0;
+  }
+  /*
+sec05
+*/
+  #sec05 h3.h3-title.wrapper_inner {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #sec05 .bg-o.wrapper_inner {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #sec05 .group {
+    padding: 20px 30px;
+  }
+  #sec05 .show .flex {
+    flex-flow: row;
+  }
+  #sec05 .show .flex .flexItem1 {
+    margin-bottom: 0;
+  }
+  #sec05 .show .flex .flexItem1 figure img {
+    width: 264px;
+  }
+  #sec05 .show .flex .flexItem1.wrapper_inner {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #sec05 .show .flex .flexItem2 {
+    flex: 1;
+  }
+  #sec05 .show .group-o {
+    margin: 30px 20px;
+  }
+  /*common*/
+  #sec05 .common .flex2 {
+    flex-wrap: nowrap;
+  }
+  #sec05 .common .flex2.wrapper_inner {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #sec05 .common .flex2 figure {
+    width: calc((100% - 20px) / 4);
+    padding-left: 10px;
+  }
+  #sec05 .common .group:not(:last-of-type) {
+    margin-bottom: 50px;
+  }
+  #sec05 .common .group.group-g {
+    margin-bottom: 80px;
+  }
+  /*
+sec06
+*/
+  #sec06 .text {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  #sec06 .bg-color {
+    padding: 30px 15px;
+  }
+  #sec06 .bg-color .flex {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  #sec06 .bg-color .flex .flex2 {
+    width: 49%;
+  }
+  #sec06 .bg-color .flex .flex2:first-of-type {
+    margin-bottom: 0;
+  }
+  /*
+sec07
+*/
+  #sec07 .text .note {
+    padding: 15px;
+  }
+  /*商品*/
+  #sec07 .flex {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  #sec07 .flex .item {
+    width: 49%;
+  }
+  #sec07 .flex .item:first-child {
+    margin-bottom: 0;
+  }
+  #sec07 .flex .item .border h4 {
+    font-size: 18px;
+  }
+  #sec07 .flex .item .border .item-in .item-point.u-line {
+    font-size: 14px
+  }
+  #sec07 .flex .item .border .item-price p:first-of-type {
+    width: 90px;
+    margin-right: 10px;
+  }
+  #sec07 .flex .item .border .item-in .item-price p:last-of-type {
+    font-size: 30px;
+  }
+  /*
+sec08
+*/
+  #sec08 .step .box p {
+    margin-left: 34px;
+  }
+  /*********
+sec05タブ
+**********/
+  .tab-css {
+    flex-wrap: nowrap;
+    font-size: 14px;
+  }
+  .tab-css.wrapper_inner {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .tab-css li {
+    width: calc((100% - 10px) / 4);
+    margin-bottom: 0;
+    padding: 10px 0;
+  }
+  .tab-css li:nth-child(2) {
+    border-top-right-radius: 0;
+  }
+  .tab-css li:nth-child(3) {
+    border-bottom-left-radius: 0;
+  }
+  .tab-css li:nth-child(4) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 20px;
+  }
+	/*********
+画像ズーム
+*********/
+	#sec02 .img-box {
+  transform-origin: top right;
+}
+	#sec02 .img-box.scale {
+  transform: scale(1.6);
+}
+	#sec03 .flexItem1.img-box {
+ transform-origin: top left;
+}
+	#sec03 .flexItem1.img-box.scale {
+  transform: scale(1.6);
+}
+	#sec03 .flexItem2.img-box {
+  transform-origin: top right;
+}
+	#sec03 .flexItem2.img-box.scale {
+  transform: scale(1.6);
+}
+}
+@media screen and (max-width: 599px) {
+  .tb {
+    display: none !important;
+  }
+}
