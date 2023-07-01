@@ -18,15 +18,15 @@
     padding: 50px 165px;
   }
   .wrapper_outer {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
   .wrapper_inner {
     margin-right: 65px;
     margin-left: 65px;
   }
   h2.h2-title {
-    font-size: 24px;
+    font-size: 40px;
   }
   /*
 sec01
@@ -44,10 +44,10 @@ sec01
     margin-left: 50px;
   }
   #sec01 div h1 {
-    font-size: 28px;
+    font-size: 40px;
   }
   #sec01 div h1 span {
-    font-size: 22px;
+    font-size: 28px;
     display: inline-block;
     margin-right: 10px;
   }
@@ -96,7 +96,7 @@ sec01
     font-size: 16px;
   }
   #sec01 .group-w .intro ul.grid li:nth-of-type(3) {
-    width: 120px;
+    width: 150px;
   }
   #sec01 .group-w .intro p.batch {
     height: 127px;
@@ -111,9 +111,9 @@ sec01
   }
   #sec01 div.group-w > p {
     position: absolute;
-    width: 360px;
-    bottom: 20px;
-    right: 140px;
+    width: 400px;
+    bottom: 10px;
+    right: 80px;
     padding-left: 0;
   }
   /*
@@ -132,7 +132,7 @@ sec03
     margin-left: 65px;
   }
   #sec03 h2.h2-title {
-    font-size: 24px;
+    font-size: 40px;
   }
   /*
 sec04
@@ -142,7 +142,7 @@ sec04
     margin-bottom: 20px;
   }
   #sec04 .property figure figcaption {
-    font-size: 12px;
+    font-size: 80%;
   }
   /*
 sec05

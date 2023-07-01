@@ -30,12 +30,18 @@ ul, ol {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-size: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2em;
 }
 a {
   color: inherit;
   text-decoration: none;
 }
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -53,7 +59,7 @@ button {
 }
 /* セクション共通 */
 .section_inner {
-  padding: 30px 10px;
+  padding: 20px 0px;
   text-align: center;
   overflow: hidden;
 }
@@ -69,7 +75,7 @@ button {
 h2.h2-title {
   color: #2A9449;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 35px;
 }
 h3.h3-title {
   margin-bottom: 15px;
@@ -107,7 +113,7 @@ sec01
   background-color: #E2ECBB;
   padding-bottom: 90px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 /*ロゴ*/
 #sec01 p.logo {
@@ -117,12 +123,12 @@ sec01
 }
 #sec01 div h1 {
   font-family: 'Noto Sans CJK', sans-serif;
-  font-size: 24px;
+  font-size: 40px;
   color: #2A9449;
   margin-bottom: 10px;
 }
 #sec01 div h1 span {
-  font-size: 20px;
+  font-size: 28px;
   display: block;
   margin-bottom: 5px;
 }
@@ -132,7 +138,7 @@ sec01
   margin-bottom: 10px;
 }
 #sec01 div.fv > figure:first-of-type {
-  width: 70%;
+  width: 90%;
   margin-right: auto;
 }
 #sec01 div.fv .point-r figure {
@@ -145,6 +151,7 @@ sec01
 }
 #sec01 div.fv .point-r .fv-tx {
   font-family: 'Noto Sans CJK', sans-serif;
+  font-size:80%;
   position: absolute;
   top: -50px;
   right: 0;
@@ -153,7 +160,7 @@ sec01
   display: block;
   background-color: #7DCF9E;
   color: #fff;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   padding: 3px 45px 3px 10px;
 }
 .dots {
@@ -165,8 +172,8 @@ sec01
 }
 /*コンテンツ*/
 #sec01 div.group-w.wrapper_outer {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 #sec01 div.group-w {
   background-color: #F7F7F7;
@@ -175,18 +182,18 @@ sec01
 #sec01 .group-w .intro {
   display: flex;
   max-width: 350px;
-  margin: 0 auto 20px;
+  margin: 0 10px 10px 20px;
 }
 #sec01 .group-w .intro ul.grid {
-  width: 60%;
+  width: 70%;
 }
 #sec01 .group-w .intro ul.grid {
   font-family: 'Noto Sans CJK', sans-serif;
   font-weight: bold;
   color: #675F5F;
-  font-size: 12px;
+  font-size: 18px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   gap: 5px 0;
   justify-items: center;
 }
@@ -195,14 +202,14 @@ sec01
   grid-column-end: 3;
 }
 #sec01 .group-w .intro ul.grid li {
-  width: 90%;
+  width: 85%;
   padding: 5px 0;
   border-radius: 5px;
   background-color: #FFBF80;
   color: #fff;
 }
 #sec01 .group-w .intro ul.grid li:nth-of-type(3) {
-  width: 100px;
+  width: 130px;
 }
 #sec01 .group-w .intro p {
   width: 40%;
@@ -261,7 +268,7 @@ sec03
   padding-bottom: 0;
 }
 #sec03 h2.h2-title {
-  font-size: 18px;
+  /* font-size: 20px; */
 }
 #sec03 h3.h3-title {
   border: solid 1px;
@@ -284,6 +291,7 @@ sec03
 #sec03 .group-g {
   background-color: #e8e4e4;
   padding: 10px;
+  font-size: 60%;
   margin-bottom: 20px;
 }
 #sec03 .text {
@@ -292,6 +300,7 @@ sec03
 #sec03 .bg-color {
   background-color: #eceff7;
   padding: 10px;
+  font-size: 80%;
   margin-left: calc(((100vw - 100%) / 2) * -1);
   margin-right: calc(((100vw - 100%) / 2) * -1);
 }
@@ -321,7 +330,7 @@ sec04
   padding-bottom: 30px;
 }
 #sec04 h3.h3-title {
-  font-size: 16px;
+  font-size: 90%;
 }
 /*表*/
 #sec04 .table-wrap {
@@ -338,7 +347,7 @@ sec04
   width: 120px;
   min-width: 120px;
   padding: 5px;
-  font-size: 14px;
+  font-size: 80%;
 }
 #sec04 tbody tr td figure {
   /*display: flex;
@@ -360,7 +369,7 @@ sec04
   background: none;
   border-left: none;
   border-right: none;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: normal;
 }
 #sec04 tbody tr th:before {
@@ -406,7 +415,7 @@ sec04
   border-radius: 20px;
   background-color: #6db473;
   color: #fff;
-  font-size: 16px;
+  font-size: 100%;
   padding: 10px 0;
 }
 #sec04 .property ul li {
@@ -417,7 +426,7 @@ sec04
 }
 #sec04 .property figure figcaption {
   margin-top: 5px;
-  font-size: 8px;
+  font-size: 80%;
   font-weight: bold;
 }
 /*
@@ -873,9 +882,9 @@ sec08
   background-color: #6db473;
   color: #fff;
   box-shadow: 4px 4px #707070;
-  width: 275px;
+  width: 350px;
   padding: 10px 0;
-  font-size: 24px;
+  font-size: 30px;
 }
 #sec08 button a:hover {
 	background-color: #4F9A56;
