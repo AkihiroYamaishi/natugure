@@ -51,6 +51,7 @@ sec01
   }
   #sec01 .group-w .intro p.batch {
     width: 100%;
+    font-size: 55%;
     margin-bottom: 10px;
   }
   #sec01 div.group-w > p {
@@ -206,17 +207,17 @@ sec07
     margin-bottom: 0;
   }
   #sec07 .flex .item .border h4 {
-    font-size: 18px;
+    font-size: 100%;
   }
   #sec07 .flex .item .border .item-in .item-point.u-line {
-    font-size: 14px
+    font-size: 80%
   }
   #sec07 .flex .item .border .item-price p:first-of-type {
     width: 90px;
     margin-right: 10px;
   }
   #sec07 .flex .item .border .item-in .item-price p:last-of-type {
-    font-size: 30px;
+    font-size: 150%;
   }
   /*
 sec08
@@ -229,7 +230,7 @@ sec05タブ
 **********/
   .tab-css {
     flex-wrap: nowrap;
-    font-size: 14px;
+    font-size: 80%;
   }
   .tab-css.wrapper_inner {
     margin-right: 0;
