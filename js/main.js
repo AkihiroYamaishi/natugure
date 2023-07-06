@@ -1,5 +1,5 @@
 //AOS
-AOS.init({ 
+AOS.init({
   delay: 100,
   duration: 1000,
 });
@@ -30,19 +30,21 @@ $(function () {
   });
 });
 //トップへ戻る
-$(function(){
+$(function () {
   var pagetop = $('#page-top');
   pagetop.hide();
   $(window).scroll(function () {
-     if ($(this).scrollTop() > 100) {
-          pagetop.fadeIn();
-     } else {
-          pagetop.fadeOut();
-     }
+    if ($(this).scrollTop() > 100) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
   });
   pagetop.click(function () {
-     $('body, html').animate({ scrollTop: 0 }, 500);
-     return false;
+    $('body, html').animate({
+      scrollTop: 0
+    }, 500);
+    return false;
   });
 });
 //追従ボタン
@@ -78,5 +80,10 @@ $(function () {
     var elmIndex = tabBtn.index(this);
     tabContents.removeClass('show');
     tabContents.eq(elmIndex).addClass('show');
+
+    const element = document.getElementById('sec05');
+    element.scrollIntoView({
+      behavior: 'smooth'
+    });
   });
 });

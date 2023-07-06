@@ -92,19 +92,20 @@ sec01
     width: 400px;
   }
   #sec01 .group-w .intro ul.grid {
-    gap: 10px 0;
+    gap: 10px;
     font-size: 90%;
   }
   #sec01 .group-w .intro ul.grid li:nth-of-type(3) {
     width: 150px;
   }
   #sec01 .group-w .intro p.batch {
-    height: 127px;
+    width: 100%;
+    height: 165px;
     font-size: 80%;
     margin-bottom: 15px;
   }
   #sec01 .group-w .intro p.batch > span:first-of-type {
-    font-size: 120%;
+    font-size: 150%;
     padding-top: 10px;
   }
   #sec01 .group-w .intro p.batch span:first-of-type .font-size {
@@ -113,7 +114,7 @@ sec01
   #sec01 div.group-w > p {
     position: absolute;
     width: 400px;
-    bottom: 10px;
+    bottom: 20px;
     right: 80px;
     padding-left: 0;
   }
@@ -212,10 +213,10 @@ footer
 追従ボタン
 *********/
   .page-img {
-	  position: fixed;
-	  top: 50px;
+    position: fixed;
+    top: 50px;
     left: 0;
-	}
+  }
   /*トップへ戻る*/
   #page-top {
     bottom: auto;
