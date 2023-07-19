@@ -81,7 +81,7 @@ sec02
   }
   #sec02 .flex:nth-child(odd) figure {
     order: 1;
-	  width: 50%;
+    width: 50%;
   }
   /*
 sec03
@@ -248,6 +248,10 @@ sec05タブ
     margin-bottom: 0;
     padding: 10px 0;
   }
+  .tab-css li:nth-child(1) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 20px;
+  }
   .tab-css li:nth-child(2) {
     border-top-right-radius: 0;
   }
@@ -256,7 +260,7 @@ sec05タブ
   }
   .tab-css li:nth-child(4) {
     border-bottom-right-radius: 0;
-    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   /*********
 画像ズーム
@@ -278,6 +282,9 @@ sec05タブ
   }
   #sec03 .flexItem2.img-box.scale {
     transform: scale(1.6);
+  }
+  #sec04 .img-box.scale {
+    transform: scale(1.7);
   }
 }
 @media screen and (max-width: 599px) {

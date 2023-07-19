@@ -107,9 +107,9 @@ p.p-right {
   /*text-decoration: underline #E1572E 3px;
   -webkit-text-decoration: underline #E1572E 3px;*/
   text-underline-offset: 2px;
-	text-decoration: underline;
-text-decoration-color: #E1572E;
-	text-decoration-thickness: 3px;
+  text-decoration: underline;
+  text-decoration-color: #E1572E;
+  text-decoration-thickness: 3px;
 }
 /*
 option
@@ -1030,18 +1030,22 @@ sec05タブ
 /*********
 画像ズーム
 *********/
-#sec02 .img-box, #sec03 .img-box {
+#sec02 .img-box, #sec03 .img-box, #sec04 .img-box {
   /*background-color: limegreen;*/
   transition: transform .3s;
 }
-#sec02 .img-box:hover, #sec03 .img-box:hover {
+#sec02 .img-box:hover, #sec03 .img-box:hover, #sec04 .img-box:hover {
   cursor: zoom-in;
-  z-index: 1;
 }
 #sec02 .img-box.scale, #sec03 .img-box.scale {
   transform: scale(1.2);
+  z-index: 1;
 }
-#sec02 .img-box.scale:hover, #sec03 .img-box.scale:hover {
+#sec04 .img-box.scale {
+  transform: scale(1.5);
+  z-index: 1;
+}
+#sec02 .img-box.scale:hover, #sec03 .img-box.scale:hover, #sec04 .img-box.scale:hover {
   cursor: zoom-out;
 }
 /*********
