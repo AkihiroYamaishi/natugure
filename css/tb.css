@@ -90,19 +90,15 @@ sec03
     margin-right: 30px;
     margin-left: 30px;
   }
-  #sec03 .flex {
+  /*#sec03 .flex {
     flex-flow: row;
     align-items: flex-end;
     justify-content: space-between;
     gap: 15px;
-  }
-  #sec03 .flex figure.flexItem1 {
+  }*/
+  /*#sec03 .flex figure.flexItem1 {
     margin-bottom: 0;
-  }
-  #sec03 .flex figure.flexItem2 {
-    border-top: none;
-    border-bottom: none;
-  }
+  }*/
   #sec03 .group-g {
     margin-bottom: 30px;
   }
@@ -271,7 +267,7 @@ sec05タブ
   #sec02 .img-box.scale {
     transform: scale(1.6);
   }
-  #sec03 .flexItem1.img-box {
+  /*#sec03 .flexItem1.img-box {
     transform-origin: top left;
   }
   #sec03 .flexItem1.img-box.scale {
@@ -282,7 +278,7 @@ sec05タブ
   }
   #sec03 .flexItem2.img-box.scale {
     transform: scale(1.6);
-  }
+  }*/
   #sec04 .img-box.scale {
     transform: scale(1.7);
   }
